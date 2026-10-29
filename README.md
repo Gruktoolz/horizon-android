@@ -43,4 +43,4 @@ La vista previa actual requiere Android 10 o posterior y ARM64. El inicio de ses
 - Hacer que los controles táctiles sean cómodos y configurables.
 - Añadir cambio rápido de perspectiva y opciones de accesibilidad dentro del juego.
 - Ampliar la administración de versiones, perfiles y ajustes del launcher.
-- Explorar asistencia de combate opcional y configurable, como ayuda de apuntado suave y ataque acompasado al cooldown. Estas ideas no están implementadas; cualquier función futura tendrá que respetar las reglas de cada servidor.
+- Evaluar asistencia de combate opcional y configurable: ayuda de apuntado suave, auto-hit acompasado al cooldown y activación press o toggle. Son ideas de roadmap, no funciones disponibles; cualquier implementación deberá respetar las reglas de cada servidor.
