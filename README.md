@@ -29,13 +29,13 @@ La vista previa actual requiere Android 10 o posterior y ARM64. El inicio de ses
 ### Capturas del launcher
 
 **Jugar**  
-![Pantalla Jugar](https://github.com/Gruktoolz/horizon-android/releases/download/v0.2.0-android-preview.1/android-launcher-play.png)
+![Pantalla Jugar](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-play.png)
 
 **Versiones**  
-![Pantalla Versiones](https://github.com/Gruktoolz/horizon-android/releases/download/v0.2.0-android-preview.1/android-launcher-versions.png)
+![Pantalla Versiones](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-versions.png)
 
 **Ajustes**  
-![Pantalla Ajustes](https://github.com/Gruktoolz/horizon-android/releases/download/v0.2.0-android-preview.1/android-launcher-settings.png)
+![Pantalla Ajustes](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-settings.png)
 
 ## Roadmap
 
@@ -43,4 +43,4 @@ La vista previa actual requiere Android 10 o posterior y ARM64. El inicio de ses
 - Hacer que los controles táctiles sean cómodos y configurables.
 - Añadir cambio rápido de perspectiva y opciones de accesibilidad dentro del juego.
 - Ampliar la administración de versiones, perfiles y ajustes del launcher.
-- Evaluar asistencia de combate opcional y configurable: ayuda de apuntado suave, auto-hit acompasado al cooldown y activación press o toggle. Son ideas de roadmap, no funciones disponibles; cualquier implementación deberá respetar las reglas de cada servidor.
+- Explorar asistencia de combate opcional y configurable, como ayuda de apuntado suave y ataque acompasado al cooldown. Estas ideas no están implementadas; cualquier función futura tendrá que respetar las reglas de cada servidor.
