@@ -2,45 +2,51 @@
 
 ## Proyecto
 
-Horizon para Android busca reunir un launcher de Minecraft Java con mejoras de juego pensadas para pantallas táctiles. Esta versión es una vista previa experimental.
+Horizon para Android reúne un launcher de Minecraft Java con mejoras de juego para pantallas táctiles. Basado en Horizon. La versión actual es **0.2.1 Alpha**, una prueba pública en desarrollo.
 
-[Únete al canal de difusión de WhatsApp](https://chat.whatsapp.com/ETt0UhVPo0FKySJSzFy05h)
+[Canal de difusión de WhatsApp](https://chat.whatsapp.com/ETt0UhVPo0FKySJSzFy05h) · [Grupo de soporte](https://chat.whatsapp.com/JUeYn6NjOiE7HDP0rHM3Le)
 
 ## Funcionamiento
 
-La pantalla **Jugar** permite instalar un ZIP de recursos, revisar el estado de la cuenta Microsoft y abrir el juego. **Versiones** muestra la versión disponible; **Ajustes** reúne las opciones actuales del launcher.
+**Jugar** permite importar recursos y abrir el juego. **Versiones** muestra la versión disponible y **Ajustes** reúne las opciones del launcher. Incluye controles táctiles revisados, cambio de perspectiva y botones para abrir el teclado y cerrar el chat.
 
-### Instalar el ZIP de recursos
+**Modo ligero** aplica renderizado y simulación de 4 chunks, límite de 30 FPS y efectos reducidos. Puedes desactivarlo para recuperar los ajustes anteriores. No garantiza alcanzar 30 FPS.
 
-1. Prepara un ZIP con los recursos de tu propia copia de Minecraft Java Edition 26.3 y guárdalo en el teléfono o tablet.
-2. Abre Horizon y entra en **Jugar**.
-3. Pulsa **Instalar ZIP** y selecciona el archivo desde el selector de Android.
-4. Espera el mensaje de confirmación. Después, **JUGAR** quedará habilitado.
+**Jugar → Reportar error** genera un TXT con datos del dispositivo, errores y actividad reciente para compartirlo desde Android, por ejemplo mediante WhatsApp. Revisa el contenido antes de enviarlo. **Ajustes → Diagnóstico para Excel** guarda un informe más completo.
 
-El ZIP debe ser un paquete preparado para Horizon. Esta vista previa no incluye Minecraft ni sus recursos y todavía no genera el ZIP en el teléfono. Si aún no tienes uno, tendrás que prepararlo a partir de tu propia copia del juego en una computadora. Los mundos y las partidas guardadas se administran aparte.
+### Instalar los recursos
 
-La vista previa actual requiere Android 10 o posterior y ARM64. El inicio de sesión Microsoft aún no está configurado en este APK. Está firmado con una clave de desarrollo y no es una versión de producción. La importación y el funcionamiento requieren más pruebas en otros dispositivos.
+1. Guarda en el teléfono un ZIP preparado para Horizon con los recursos de tu copia de Minecraft Java 26.3.
+2. Abre **Jugar → Instalar ZIP** y selecciona el archivo en Descargas. **No lo descomprimas**.
+3. Espera la confirmación y pulsa **JUGAR**.
+
+El APK no incluye Minecraft ni sus recursos y todavía no prepara el ZIP desde el teléfono. Un ZIP genérico de texturas no sustituye el paquete completo. Los mundos se administran aparte. Las correcciones de interfaz requieren actualizar también el APK.
+
+Requisitos actuales: **Android 10 o posterior y ARM64**. No hay soporte de Android de 32 bits ni compatibilidad certificada con 2 GB de RAM. El inicio de sesión Microsoft no está configurado en este APK. Conserva una firma de desarrollo; sigue siendo una alpha y necesita pruebas en más dispositivos.
 
 ## Descargas
 
-- [Descargar Horizon Android v0.2.0 (APK, 84.97 MB)](https://github.com/Gruktoolz/horizon-android/releases/download/v0.2.0-android-preview.1/horizon-android.apk)
-- [Ver notas de esta versión](https://github.com/Gruktoolz/horizon-android/releases/tag/v0.2.0-android-preview.1)
+- [Descargar Horizon Android 0.2.1 Alpha (APK, 141.67 MiB)](https://github.com/Gruktoolz/horizon-android/releases/download/v0.2.1-alpha.1/Horizon-Android.apk)
+- [Todos los cambios y problemas conocidos](https://github.com/Gruktoolz/horizon-android/releases/tag/v0.2.1-alpha.1)
 
 ### Capturas del launcher
 
-**Jugar**  
+Las capturas muestran la presentación inicial del launcher; los botones de diagnóstico y modo ligero se añadieron después.
+
+**Jugar**
 ![Pantalla Jugar](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-play.png)
 
-**Versiones**  
+**Versiones**
 ![Pantalla Versiones](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-versions.png)
 
-**Ajustes**  
+**Ajustes**
 ![Pantalla Ajustes](https://raw.githubusercontent.com/Gruktoolz/horizon-android/main/docs/media/android-launcher-settings.png)
 
 ## Roadmap
 
-- Mejorar estabilidad, continuidad de las sesiones y fluidez.
-- Hacer que los controles táctiles sean cómodos y configurables.
-- Añadir cambio rápido de perspectiva y opciones de accesibilidad dentro del juego.
-- Ampliar la administración de versiones, perfiles y ajustes del launcher.
-- Evaluar asistencia de combate opcional y configurable: ayuda de apuntado suave, auto-hit acompasado al cooldown y activación press o toggle. Son ideas de roadmap, no funciones disponibles; cualquier implementación deberá respetar las reglas de cada servidor.
+- Investigar cierres y bajos FPS con los nuevos reportes.
+- Reducir memoria y probar sesiones largas, pausa/reanudación e importaciones interrumpidas en varios dispositivos.
+- Ampliar la personalización de controles y las opciones de accesibilidad.
+- Completar acceso de cuenta, administración de versiones, perfiles y ajustes.
+- Evaluar soporte de 32 bits por separado; todavía no está disponible.
+- Evaluar asistencia de combate opcional y configurable: ayuda de apuntado suave, auto-hit acompasado al cooldown y activación press o toggle. Son propuestas futuras y deberán respetar las reglas de cada servidor.
