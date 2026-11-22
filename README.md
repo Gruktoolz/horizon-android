@@ -2,10 +2,10 @@
 
 ## Proyecto
 
-Horizon Android es un proyecto independiente en desarrollo con la visión de acercar Minecraft Java a dispositivos Android de una forma accesible y coherente con la experiencia del juego.
+Horizon Android是一个独立的项目,旨在让Minecraft Java在Android设备上以一种可访问的方式与游戏体验保持一致.
 
 ## Visión general
 
-La meta es crear una experiencia móvil cuidada, flexible y cómoda para la comunidad, que conserve la identidad de Minecraft y pueda evolucionar con las necesidades de distintos jugadores y dispositivos.
+我们的目标是创造一个小心翼翼的,灵活的,舒适的社区移动体验,
 
-[Soporte por WhatsApp](https://chat.whatsapp.com/JUeYn6NjOiE7HDP0rHM3Le) · [Canal de difusión](https://chat.whatsapp.com/ETt0UhVPo0FKySJSzFy05h)
+[通过WhatsApp提供支持](https://chat.whatsapp.com/JUeYn6NjOiE7HDP0rHM3Le) · [播放道](https://chat.whatsapp.com/ETt0UhVPo0FKySJSzFy05h)
